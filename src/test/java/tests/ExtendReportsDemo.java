@@ -18,7 +18,7 @@ public class ExtendReportsDemo {
 	public static void main(String[] args) throws InterruptedException {
 
 		// start reporters
-		ExtentReporter htmlReporter = new ExtentHtmlReporter("extent.html");
+		ExtentReporter htmlReporter = new ExtentHtmlReporter("extentReports.html");
 
 		// create ExtentReports and attach reporter(s)
 		ExtentReports extent = new ExtentReports();
